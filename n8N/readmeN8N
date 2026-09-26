@@ -1,0 +1,30 @@
+# 🇮🇳 JharSetu — n8n Workflow
+
+JharSetu is a digital platform that transforms citizen-reported community problems into structured civic challenges and connects them with relevant institutions and expertise.
+
+This repository contains the **n8n workflow** responsible for complaint intake, AI analysis, database processing, institution matching, notifications, and Telegram integration.
+
+---
+
+## 🎯 Purpose
+
+The n8n workflow acts as the **orchestration layer** of JharSetu.
+
+It connects:
+
+```text
+Citizen
+   ↓
+Complaint
+   ↓
+AI Analysis
+   ↓
+Structured Information
+   ↓
+MySQL Database
+   ↓
+Institution Matching
+   ↓
+Notification
+   ↓
+Collaborative Problem Solving
